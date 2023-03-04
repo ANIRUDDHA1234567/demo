@@ -3,3 +3,10 @@ git init : to initialize git.
 git add index.html(filename) : to add file
 git status : to check files are added or untracked
 git log : to check comited files
+git reset --hard 2781f3131fa5ed365c23f10a6a68ec5bedcc5b1e :get back to previous version with loosing code
+git reset --soft 2781f3131fa5ed365c23f10a6a68ec5bedcc5b1e :get back to previous version without loosing code
+git add . : to add all files at same time
+git branch : to check current branch
+git branch test(name of new branch) : to create new branch
+git checkout test : change the branch
+git merge test : to merge code of test in main  
